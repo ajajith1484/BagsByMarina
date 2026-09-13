@@ -4,9 +4,11 @@ export default function Hero() {
       {/* Background Image */}
       <div className="absolute top-0 right-0 w-full md:w-[60%] h-full z-0 overflow-hidden">
         <img
-          src="/assets/herosection.png"
+          src="/assets/herosection.webp"
           alt="Bags By Marina"
           className="w-full h-full object-cover object-right"
+          fetchPriority="high"
+          loading="eager"
         />
       </div>
 

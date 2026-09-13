@@ -7,10 +7,10 @@ const HeartIcon = () => (
 );
 
 const products = [
-  { id: 1, name: 'The Aurelia Tote', price: '₹1,899', image: '/assets/bag1.png' },
-  { id: 2, name: 'The Soft Curve', price: '₹1,599', image: '/assets/bag2.png' },
-  { id: 3, name: 'The Siena Satchel', price: '₹1,999', image: '/assets/bag3.png' },
-  { id: 4, name: 'The Luna Mini', price: '₹1,299', image: '/assets/bag1.png' },
+  { id: 1, name: 'The Aurelia Tote', price: '₹1,899', image: '/assets/bag1.webp' },
+  { id: 2, name: 'The Soft Curve', price: '₹1,599', image: '/assets/bag2.webp' },
+  { id: 3, name: 'The Siena Satchel', price: '₹1,999', image: '/assets/bag3.webp' },
+  { id: 4, name: 'The Luna Mini', price: '₹1,299', image: '/assets/bag1.webp' },
 ];
 
 function ProductCard({ product }) {
@@ -23,6 +23,7 @@ function ProductCard({ product }) {
           src={product.image}
           alt={product.name}
           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+          loading="lazy"
         />
         <button
           aria-label="Add to wishlist"
