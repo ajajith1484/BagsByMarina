@@ -60,8 +60,8 @@ export default function Header({ cartCount = 0 }) {
 
           {/* Logo */}
           <a href="/" className="flex flex-col items-center text-center">
-            <h1 className="font-playfair text-[2rem] tracking-[0.15em] leading-none font-medium">MARINA</h1>
-            <span className="text-[0.7rem] tracking-[0.25em] text-marina-light">BAGS BY MARINA</span>
+            <h1 className="font-playfair text-[1.5rem] tracking-[0.15em] leading-none font-medium text-center">STYLE BAG HUB</h1>
+            <span className="text-[0.65rem] tracking-[0.25em] text-marina-light">BAG BOUTIQUE STORE</span>
           </a>
 
           {/* Desktop Nav */}
@@ -96,8 +96,8 @@ export default function Header({ cartCount = 0 }) {
         <div className="fixed inset-0 z-[200] bg-marina-bg flex flex-col p-8">
           <div className="flex justify-between items-center mb-12">
             <a href="/" className="flex flex-col items-center">
-              <span className="font-playfair text-2xl tracking-[0.15em] font-medium">MARINA</span>
-              <span className="text-[0.7rem] tracking-[0.25em] text-marina-light">BAGS BY MARINA</span>
+              <span className="font-playfair text-xl tracking-[0.15em] font-medium text-center">STYLE BAG HUB</span>
+              <span className="text-[0.65rem] tracking-[0.25em] text-marina-light">BAG BOUTIQUE STORE</span>
             </a>
             <button onClick={() => setMobileOpen(false)} aria-label="Close Menu">
               <CloseIcon />

@@ -48,7 +48,7 @@ export default function Footer() {
       {/* Social Feed Strip */}
       <div className="flex flex-col md:flex-row bg-[#6D7260]">
         <div className="px-8 py-6 md:min-w-[250px] flex items-center justify-center md:justify-start text-white text-[0.85rem] tracking-[0.1em]">
-          FOLLOW @BAGSBYMARINA_
+          FOLLOW @STYLE_BAG_HUB
         </div>
         <div className="flex flex-1">
           {socialColors.map((color, i) => (
@@ -64,15 +64,18 @@ export default function Footer() {
           {/* Brand */}
           <div className="sm:col-span-2 lg:col-span-1">
             <a href="/" className="flex flex-col items-start mb-6">
-              <span className="font-playfair text-2xl tracking-[0.15em] font-medium">MARINA</span>
-              <span className="text-[0.7rem] tracking-[0.25em] text-[#999]">BAGS BY MARINA</span>
+              <span className="font-playfair text-xl tracking-[0.15em] font-medium text-center">STYLE BAG HUB</span>
+              <span className="text-[0.65rem] tracking-[0.25em] text-[#999]">BAG BOUTIQUE STORE</span>
             </a>
-            <p className="text-[#999] text-sm mb-6 leading-relaxed">
-              Premium bags curated with passion since 2014. Store at Bathinda — COD available — Shipping Worldwide.
-            </p>
+            <div className="text-[#999] text-[0.85rem] mb-6 flex flex-col gap-2">
+              <p>Customised bags & accessories.<br/>Premium quality made to order.</p>
+              <address className="not-italic mt-2">
+                Delhi, India 110005<br/>
+                GSTIN: 07AATFB8725GZ2
+              </address>
+            </div>
             <div className="flex gap-4">
-              <a href="https://www.instagram.com/bagsbymarina_bathinda" target="_blank" rel="noopener" aria-label="Instagram Bathinda" className="text-[#999] hover:text-white transition-colors"><InstagramIcon /></a>
-              <a href="https://www.instagram.com/bagsbymarina_" target="_blank" rel="noopener" aria-label="Instagram Main" className="text-[#999] hover:text-white transition-colors"><InstagramIcon /></a>
+              <a href="https://www.instagram.com/style_bag_hub" target="_blank" rel="noopener" aria-label="Instagram Main" className="text-[#999] hover:text-white transition-colors"><InstagramIcon /></a>
               <a href="#" aria-label="TikTok" className="text-[#999] hover:text-white transition-colors"><TikTokIcon /></a>
               <a href="#" aria-label="Email" className="text-[#999] hover:text-white transition-colors"><EmailIcon /></a>
             </div>

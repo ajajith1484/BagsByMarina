@@ -1,7 +1,7 @@
 const badges = [
   {
-    label: 'TRUSTED SINCE 2014',
-    sub: 'A decade of quality bags.',
+    label: 'MADE TO ORDER',
+    sub: 'Customised for you.',
     icon: (
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
         <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
@@ -9,8 +9,8 @@ const badges = [
     ),
   },
   {
-    label: 'STORE AT BATHINDA',
-    sub: 'Visit us in-store today.',
+    label: 'DELHI, INDIA',
+    sub: 'Located in Delhi 110005.',
     icon: (
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
         <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
@@ -19,8 +19,8 @@ const badges = [
     ),
   },
   {
-    label: 'COD AVAILABLE',
-    sub: 'Pay on delivery, hassle-free.',
+    label: 'COD NOT AVAILABLE',
+    sub: 'Prepaid orders only.',
     icon: (
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
         <rect x="3" y="11" width="18" height="11" rx="2" ry="2" />
@@ -29,8 +29,8 @@ const badges = [
     ),
   },
   {
-    label: 'SHIPPING WORLDWIDE',
-    sub: 'Delivered to your door.',
+    label: 'PAN INDIA SHIPPING',
+    sub: 'Shipping across India.',
     icon: (
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
         <circle cx="12" cy="12" r="10" />
