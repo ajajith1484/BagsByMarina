@@ -240,9 +240,7 @@ h3 {
     width: 60%;
     height: 100%;
     background-color: #D3C9BE;
-    background-image: url('assets/herosection.png');
-    background-size: cover;
-    background-position: calc(50% - 300px) center;
+    overflow: hidden;
     z-index: 1;
 }
 
